@@ -75,39 +75,5 @@ Category = Electronics
 Maximum Price = 70000
 Minimum Rating = 4.5
 
-Example Based on the Algorithm
-Search Query
-Category = Electronics
-Maximum Price = ₹70,000
-Minimum Rating = 4.5
-Step 1: Category Filter
-iPhone 15       → Electronics ✓
-Samsung Galaxy  → Electronics ✓
-Nike Shoes      → Fashion ✗
-Dell Laptop     → Electronics ✓
-Adidas T-Shirt  → Fashion ✗
 
-Remaining products:
-
-iPhone 15
-Samsung Galaxy
-Dell Laptop
-Step 2: Price Filter
-iPhone 15       → ₹79,999 ✗
-Samsung Galaxy  → ₹64,999 ✓
-Dell Laptop     → ₹55,000 ✓
-Step 3: Rating Filter
-Samsung Galaxy → 4.5 ✓
-Dell Laptop    → 4.6 ✓
-Final Result
-Samsung Galaxy
-Dell Laptop
-
-Output
-Samsung Galaxy
-Dell Laptop
-
-Time Complexity = O(n)
-
-Space Complexity: O(k)
 
